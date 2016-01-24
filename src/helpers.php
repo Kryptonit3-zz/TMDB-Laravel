@@ -1,6 +1,6 @@
 <?php
 
-include('../vendor/kryptonit3/tmdb_v3-PHP-API-/tmdb-api.php');
+include('./tmdb_v3-PHP-API--master/tmdb-api.php');
 
 if (!function_exists('TMDB')) {
     function tmdb()
