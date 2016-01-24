@@ -1,6 +1,6 @@
 <?php
 
-include('./tmdb/tmdb-api.php');
+include('tmdb/tmdb-api.php');
 
 if (!function_exists('TMDB')) {
     function tmdb()
