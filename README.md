@@ -82,6 +82,6 @@ array:20 [▼
 
 Here are some more examples - https://github.com/pixelead0/tmdb_v3-PHP-API-#movies
 
-Just replace the `$tmdb->` with `tmdb()->`
+Just replace the `$tmdb->` with `tmdb()->` 
 
 This author of the actual API wrapper: https://github.com/pixelead0/tmdb_v3-PHP-API-
