@@ -1,0 +1,37 @@
+{
+  "name": "kryptonit3/tmdb-laravel",
+  "description": "TMDB Wrapper for Laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jesse Szypulski",
+      "email": "jesse.szypulski@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.2",
+    "ext-curl": "*",
+    "kryptonit3/tmdb_v3-PHP-API-": "0.3"
+  },
+  "repositories": [{
+    "type": "package",
+    "package": {
+      "name": "kryptonit3/tmdb_v3-PHP-API-",
+      "version": "0.3",
+      "source": {
+        "url": "git@github.com:Kryptonit3/tmdb_v3-PHP-API-.git",
+        "type": "git",
+        "reference": "0.3"
+      }
+    }
+  }],
+  "autoload": {
+    "psr-4": {
+      "Kryptonit3\\TMDBLaravel\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
