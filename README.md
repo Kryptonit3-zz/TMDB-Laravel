@@ -4,7 +4,7 @@ A TMDB API wrapper for Laravel.
 How this differs from other packages? Allows for searching with ease.
 
 Installation
-`composer require kryptonit3/tmdb-laravel:dev-master`
+`composer require kryptonit3/tmdb-laravel:0.3`
 
 Set environment variables:
 
