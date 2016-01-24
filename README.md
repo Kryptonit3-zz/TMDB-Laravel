@@ -1,5 +1,5 @@
 # TMDB-Laravel
-A TMDB API wrapper for Laravel.
+A [TMDB](https://www.themoviedb.org/) API wrapper for Laravel.
 
 How this differs from other packages? Allows for searching with ease.
 
@@ -12,6 +12,7 @@ Set environment variables:
 TMDB_API=YOUR-TMDB-API-KEY
 TMDB_LANG=en
 ~~~
+To get an API key you will need to register an account with [TMDB](https://www.themoviedb.org/). Once registered you can apply for API in your profile. (instant).
 
 Note: `TMDB_LANG` only required when not using english (es, en, fr).
 
