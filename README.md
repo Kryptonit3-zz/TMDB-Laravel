@@ -1,5 +1,5 @@
 # TMDB-Laravel
-A [TMDB](https://www.themoviedb.org/) API wrapper for Laravel.
+A [TMDB](https://www.themoviedb.org/) API wrapper for Laravel 5.
 
 How this differs from other packages? Allows for searching with ease.
 
