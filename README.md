@@ -36,7 +36,7 @@ dd($search);
 ```
 
 Results
-```
+```php
 array:20 [▼
   0 => Movie {#157 ▼
     -_data: array:14 [▼
