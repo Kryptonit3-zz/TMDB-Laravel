@@ -5,8 +5,8 @@ include('tmdb/tmdb-api.php');
 if (!function_exists('TMDB')) {
     function tmdb()
     {
-        $apikey = config('kryptonit3_tmdb.TMDB_API');
-        $language = config('kryptonit3_tmdb.TMDB_LANG');
+        $apikey = settings()->get('tmdb_api_key');
+        $language = 'en';
         $tmdb = new TMDB($apikey, $language);
 
         return $tmdb;
