@@ -5,7 +5,7 @@ include('tmdb/tmdb-api.php');
 if (!function_exists('TMDB')) {
     function tmdb()
     {
-        $apikey = settings()->get('tmdb_api_key');
+        $apikey = env('TMDB_API_KEY');
         $language = 'en';
         $tmdb = new TMDB($apikey, $language);
 
